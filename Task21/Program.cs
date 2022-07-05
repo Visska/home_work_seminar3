@@ -12,7 +12,7 @@ double x1 = Convert.ToDouble(Console.ReadLine());
 double y1 = Convert.ToDouble(Console.ReadLine());
 double z1 = Convert.ToDouble(Console.ReadLine());
 
-double distanse = Math.Sqrt((x-x1)*(x-x1) + (y-y1)*(y-y1) + (z-z1)*(z-z1));
+double distanse = Math.Sqrt(( x - x1 )*( x - x1 ) + ( y - y1 )*( y - y1 ) + ( z - z1 )*( z - z1 ));
 
 Console.WriteLine($"Координаты точки A -> x = {x}, y = {y}, z = {z}");
 Console.WriteLine($"Координаты точки B -> x1 = {x1}, y1 = {y1}, z1 = {z1}");
